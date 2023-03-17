@@ -8,26 +8,16 @@ public class Media {
         this.nota = nota;
     }
     public static void main (String [] args){
-        double nota1 = 6;
-        int nota2 = 5;
-        int nota3= 7;
+        double nota1 = 6.5;
+        double nota2 = 5.5;
+        double nota3= 7;
         double nota4= 9;
 
-        nota1 = (nota1/4);
-        nota2 = (nota2/4);
-        nota3 = (nota3/4);
-        nota4 = (nota4/4);
+        double nota5 = (nota1 + nota2 + nota3 + nota4);
+        double nota6 = (nota5 / 4);
 
-        System.out.println("Média nota 1:" + nota1);
-        System.out.println("Média nota 2:" + nota2);
-        System.out.println("Média nota 3:" + nota3);
-        System.out.println("Média nota 4:" + nota4);
-
-
-
-
-
-
+        System.out.println("Soma notas :" + nota5);
+        System.out.println("Media notas :" + nota6);
 
     }
 
